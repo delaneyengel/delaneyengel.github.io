@@ -1,77 +1,91 @@
 html {
-  font-family: sans-serif;
+	font-family: sans-serif;
 }
-body
-{
-  margin:0px;
-}
-.home-banner
-{
-  padding:0px;
-  margin: 0px;
-  width: 100vw;
-  height: 100vh;
-  background-color: #e3f6ff;
-  border-bottom: 5px solid #36454F;
-display:flex;
-flex-direction:column;
-align-items: center;
-justify-content: center;
 
+body {
+	margin: 0px;
 }
+
+.home-banner {
+	padding: 0px;
+	margin: 0px;
+	width: 100vw;
+	height: 100vh;
+	background-color: #e3f6ff;
+	border-bottom: 5px solid #36454F;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
 h2 {
-    font-family: 'Oleo Script Swash Caps', cursive;
+	font-family: 'Oleo Script Swash Caps', cursive;
 }
-.home-banner h1 {
-  font-family: 'Oleo Script Swash Caps', cursive;
-  font-size: 92px;
-  color:#36454F;
-  margin: 10px 0px;
-}
-.home-banner img{
-  border-radius: 1221128383828px;
-  width: 200px;
-  height:auto;
-}
-@media only screen and (max-width: 450px){
-  .banner {
-    height:100vh;
 
-  }
+.home-banner h1 {
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size: 92px;
+	color: #36454F;
+	margin: 10px 0px;
+}
+
+.home-banner img {
+	border-radius: 1221128383828px;
+	width: 200px;
+	height: auto;
+}
+
+@media only screen and (max-width: 450px) {
+	.banner {
+		height: 100vh;
+	}
 }
 
 main {
-  max-width: 80ch;
-  margin: 0px auto;
+	max-width: 80ch;
+	margin: 0px auto;
+    color: #36454F;
 }
-.banner
-{
-  padding:0px;
-  margin: 0px;
-  width: 100vw;
-  height: 50vh;
-  background-color: #e3f6ff;
-  border-bottom: 5px solid #36454F;
-display:flex;
-align-items: center;
-justify-content: center;
 
+.banner {
+	padding: 0px;
+	margin: 0px;
+	width: 100vw;
+	min-height: 50vh;
+	background-color: #e3f6ff;
+	border-bottom: 5px solid #36454F;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
+
 .banner h1 {
-  font-family: 'Oleo Script Swash Caps', cursive;
-  font-size: 92px;
-  color:#36454F;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size: 92px;
+	color: #36454F;
+	margin-bottom: 30px;
 }
 
-.buttons{
-  background-color: white;
-  color: #c425e8;
-  border-radius: 728347298718237px;
-  padding: 1.25em 2em;
-  line-height:1;
-  display: inline-block;
-  text-decoration: none;
+.buttons {
+	background-color: white;
+	color: #c425e8;
+	border-radius: 728347298718237px;
+	padding: 1.25em 2em;
+	line-height: 1;
+	display: inline-block;
+	text-decoration: none;
 }
+
 .buttons:first-child {
-  margin-right: 1em;
+	margin-right: 1em;
+}
+
+a {
+    color: #36454F;
+}
+
+a:visited {
+    color: #36454F;
 }
